@@ -41,9 +41,9 @@ All:
 
 ```r
 facet_pyramid(pyramid_tots,
-              council = NULL,
               facet_cols = 6,
-              ax_limits = "fixed",
-              nbreaks = 5)
+              nbreaks = 3)
  ```             
-              
+ 
+ ![image](https://user-images.githubusercontent.com/3278367/173323629-04f570ad-dabc-4ddc-b2fb-2e6beb58b27b.png)
+
