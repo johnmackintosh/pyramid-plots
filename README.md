@@ -39,7 +39,12 @@ facet_pyramid(pyramid_tots,
               nbreaks = 8,
               Sutherland, Caithness, Lochaber)
 ```
+2021: 
+![image](https://user-images.githubusercontent.com/3278367/190691699-2c4c9e63-63b9-442a-bd69-530bbaf2b54b.png)
 
+
+
+2020: 
 ![image](https://user-images.githubusercontent.com/3278367/173111083-10fc4658-0892-4c2c-99ad-33bbdf5ad2f5.png)  
 
 All:
