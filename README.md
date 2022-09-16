@@ -8,6 +8,11 @@ facet_pyramid(pyramid_tots,
               council = Highland,
               facet_cols = 3)
 ```
+2021: 
+
+![image](https://user-images.githubusercontent.com/3278367/190691452-f6950b00-b6dc-45f4-8c95-04a6bb48d646.png)
+
+2020: 
 
 ![image](https://user-images.githubusercontent.com/3278367/173109678-a72bdf93-6470-40d9-8180-c8414f015376.png)  
 
