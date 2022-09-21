@@ -17,6 +17,8 @@
 #' @export
 #'
 #' @examples
+#'
+#'
 transformDT <- function(filename = "sape-2021-males-nhsh-wide.RDS",
                         gender = "male",
                         names_to_keep = c("DataZone",
@@ -25,25 +27,18 @@ transformDT <- function(filename = "sape-2021-males-nhsh-wide.RDS",
                                           "Data_zone_name",
                                           "Council_area_code",
                                           "Council_area_name",
-                                          "gender_level")) {
+                                          "gender_level",
+                                          "Total_population")) {
   here <- here::here()
-
   setwd(here("gender-level"))
 
   .DT <- data.table::setDT(readRDS(filename))
 
 
-  if (gender == "persons") {
-
-    .DT <- .DT[, !c("Total_population")]
-  }
-
-
   if (gender != "persons") {
 
-    .DT <- .DT[, !c("Sex", "Total_population")]
+    .DT <- .DT[, !c("Sex")]
   }
-
 
   .DT[,`:=`(gender_level = ..gender)][]
   .DT_tidy <- data.table::melt(.DT, id.vars = names_to_keep)
@@ -61,7 +56,6 @@ transformDT <- function(filename = "sape-2021-males-nhsh-wide.RDS",
     variable >= 85, "85+",
     default = NA_character_
   )][]
-
 
   newfile <- gsub("wide","tidy",filename)
   setwd(here)
