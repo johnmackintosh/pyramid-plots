@@ -1,5 +1,13 @@
 # pyramid-plots
-Highland area population pyramids based on NRS Small Area Population Estimates (SAPE) 2020
+Highland area population pyramids based on NRS Small Area Population Estimates (SAPE) 2020 / 2021
+
+
+Latest data sources:
+
+[persons](https://www.nrscotland.gov.uk/files//statistics/population-estimates/sape-time-series/persons/sape-2021-persons.xlsx)
+[males](https://www.nrscotland.gov.uk/files//statistics/population-estimates/sape-time-series/males/sape-2021-males.xlsx)
+[females](https://www.nrscotland.gov.uk/files//statistics/population-estimates/sape-time-series/females/sape-2021-females.xlsx)
+
 
 All Highland areas:  
 
