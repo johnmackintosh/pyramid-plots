@@ -73,6 +73,6 @@ facet_pyramid(pyramid_tots,
 ![image](https://github.com/johnmackintosh/pyramid-plots/blob/ccf3f79dadd997a7d5a0285492554580efc06b88/source_data/inverness_population_projections.png)
 
 
-![image](https://user-images.githubusercontent.com/3278367/214271774-cb090268-1b92-4bc2-a853-f213d1cbf205.png)
+![image](https://user-images.githubusercontent.com/3278367/214272593-40d2a04a-cebb-43ee-8f0d-9c7a351ea17c.png)
 
 
