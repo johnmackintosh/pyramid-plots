@@ -68,3 +68,7 @@ facet_pyramid(pyramid_tots,
 ## Animation of Inverness area projections
 
 ![image](https://github.com/johnmackintosh/pyramid-plots/blob/73c2ac559f1e648f12f02215609665dbef383df2/projections-animation.gif)
+
+
+![image](https://github.com/johnmackintosh/pyramid-plots/blob/ccf3f79dadd997a7d5a0285492554580efc06b88/source_data/inverness_population_projections.png)
+
