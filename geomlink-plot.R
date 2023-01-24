@@ -136,7 +136,7 @@ ggplot(data = t1, aes(x = pop2030, y = percent)) +
                                      family = "Century Gothic", 
                                      size = 10),
         plot.caption = element_text(colour = "white", 
-                                    family = "Century Gothict", 
+                                    family = "Century Gothic", 
                                     size = 10),
         plot.caption.position = "plot",
         legend.title = element_text(colour = "white", 
@@ -146,6 +146,7 @@ ggplot(data = t1, aes(x = pop2030, y = percent)) +
                                    family = "Century Gothic", 
                                    size = 14)) + 
   labs(x = "Projected population in 2030",
-       title = para_text, 
-       caption = chart_caption)
-       ) 
+       title = para_text,
+       caption = chart_caption
+       )  + 
+  align_caption_left
